@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+
+p { color:white; font-size:30px;font-style: italic; margin: 0px;
+    padding: 0px;
+}
+
+div {
+    background: black;
+    text-align: center;
+    position: relative;
+    border: 25px solid green;
+    height: 250px;
+    width: 450px;
+    border-radius: 25px;
+}
+body
+{
+    margin-top: 50px;
+    
+}

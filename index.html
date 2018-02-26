@@ -1,21 +1,31 @@
 <html>
 
 <head>
-	<title>Array</title>
+    <title>Array</title>
 </head>
 
-<body style="font-size: 35">
-	<p id="output"></p>
-	<script>
-		var person = new Array();
-		for (i = 0; i < 5; i++) {
-			person[i] = prompt("enter a name");
+<body style="background: black">
+    <h1>Names are :</h1>
+    <p id="output"></p>
+    <script>
+        var person = new Array();
+        for (i = 0; i < 5; i++) {
+            person[i] = prompt("enter a name");
             person.sort();
-			document.getElementById("output").innerHTML = person;
-		}
+            document.getElementById("output").innerHTML = person;
+        }
+    </script>
+    <style>
+        p {
+            color: white;
+            font-style: italic;
+            font-size: 25px;
+        }
 
-
-	</script>
+        h1 {
+            color: green;
+        }
+    </style>
 </body>
 
 </html>
